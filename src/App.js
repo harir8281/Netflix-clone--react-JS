@@ -9,9 +9,10 @@ function App() {
     <div className="app">
       <NavBar />
       <Banner />
-      <RowPost />
+      <RowPost title='Netflix Orginals' videoId={'32RAq6JzY-w'} />
+      <RowPost title='Actions' isSmall  />
     </div>
-  ); 
+  );
 }
 
 export default App;
